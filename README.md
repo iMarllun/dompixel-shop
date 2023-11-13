@@ -24,7 +24,7 @@ Siga os passos abaixo para configurar o projeto:
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/iMarllun/dompixel-shop.git
+git clone https://github.com/MarlomMedeiros/dompixel-shop.git
 cd dompixel-shop
 ```
 
