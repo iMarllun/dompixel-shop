@@ -1,5 +1,5 @@
-@extends('layouts.app')
-<div class="w-full bg-white rounded-lg shadow-lg p-6 transition-all transform duration-500 mt-10 md:w-1/2 mx-auto">
+<x-layout>
+    <div class="w-full bg-white rounded-lg shadow-lg p-6 transition-all transform duration-500 mt-10 md:w-1/2 mx-auto">
     <h1 class="text-3xl font-bold mb-4">
         {{ $product->name }}
     </h1>
@@ -18,4 +18,4 @@
     <div class="flex justify-end">
         <a href="{{ route('products.index') }}" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Voltar</a>
     </div>
-</div>
+</x-layout>
